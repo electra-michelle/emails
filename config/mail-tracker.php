@@ -27,7 +27,7 @@ return [
     /**
      * If we get a link click without a URL, where should we send it to?
      */
-    'redirect-missing-links-to' => '/',
+    'redirect-missing-links-to' => 'https://playlisters.net',
 
     /**
      * Where should the admin route be?
@@ -37,7 +37,7 @@ return [
         'prefix' => 'email-manager',
         'middleware' => [
             'web',
-            'can:see-sent-emails'
+            'auth'
         ],
     ],
 
