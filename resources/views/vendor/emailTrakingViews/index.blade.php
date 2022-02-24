@@ -3,11 +3,6 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-12">
-                <h1>Mail Tracker</h1>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-sm-12">
                 <h4 class="text-center">
                     SNS Endpoint: {{ route('mailTracker_SNS') }}
                 </h4>

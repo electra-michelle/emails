@@ -10,6 +10,6 @@ class SubscriberController extends Controller
 {
     public function test()
     {
-        Mail::to('michelleelectra3@gmail.com')->send(new SubscriberMail);
+        Mail::to('jenifermorgan525@gmail.com')->send(new SubscriberMail);
     }
 }

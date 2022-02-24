@@ -49,7 +49,7 @@ return [
      * 'styles_section' => 'styles' for Default emailTraking use 'styles'
      */
     'admin-template' => [
-        'name' => 'emailTrakingViews::layouts.app',
+        'name' => 'layouts.app',
         'section' => 'content',
     ],
 

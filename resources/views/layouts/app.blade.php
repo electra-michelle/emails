@@ -54,6 +54,9 @@
                         @else
                             <li class="nav-item dropdown">
                                 <li class="nav-item">
+                                    <a class="nav-link" href="{{ url('/') }}">{{ __('Dashboard') }}</a>
+                                </li>
+                                <li class="nav-item">
                                     <a class="nav-link" href="{{ url(config('mail-tracker.admin-route.prefix')) }}">{{ __('E-Mail manager') }}</a>
                                 </li>
                                 <a id="navbarDropdown" class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-haspopup="true" aria-expanded="false" v-pre>

@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Subscriber;
+use App\Models\SentEmail;
 
 class HomeController extends Controller
 {
@@ -23,6 +25,15 @@ class HomeController extends Controller
      */
     public function index()
     {
-        return view('home');
+		
+		$totalEmails = Subscriber::count();
+		
+		$sentEmails = SentEmail::count();
+		$openedEmails = SentEmail::where('opens', '>', 0)->count();
+		$clickedEmails = SentEmail::where('clicks', '>', 0)->count();
+		
+		$unsentEmails = Subscriber::where('sent', false)->count();
+		
+        return view('home', compact('totalEmails', 'sentEmails', 'unsentEmails', 'openedEmails', 'clickedEmails'));
     }
 }
