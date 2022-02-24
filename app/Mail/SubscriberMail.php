@@ -18,7 +18,7 @@ class SubscriberMail extends Mailable
      */
     public function __construct()
     {
-        //
+        $this->onQueue('low');
     }
 
     /**
