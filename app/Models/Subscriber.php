@@ -10,5 +10,5 @@ class Subscriber extends Model
 {
     use HasFactory, SoftDeletes;
 	
-	protected $fillable = ['email', 'sent'];
+	protected $fillable = ['email', 'sent', 'secret'];
 }
