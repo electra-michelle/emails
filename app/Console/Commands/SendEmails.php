@@ -21,7 +21,7 @@ class SendEmails extends Command
      *
      * @var string
      */
-    protected $description = 'Command description';
+    protected $description = 'Send Emails';
 
     /**
      * Execute the console command.
@@ -37,7 +37,7 @@ class SendEmails extends Command
 			->addSeconds(rand(7, 12));
 			
 			Mail::to($nextEmail->email)
-				->later($time, new SubscriberMail);
+				->later($time, new SubscriberMail($nextMail));
 				
 			$nextEmail->sent = true;
 			$nextEmail->save();
