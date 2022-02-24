@@ -19,5 +19,5 @@ Auth::routes([
     'register' => false
 ]);
 
-Route::get('test', [\App\Http\Controllers\SubscriberController::class, 'test']);
+Route::get('unsubscribe', [\App\Http\Controllers\HomeController::class, 'unsubscribe'])->name('unsubscribe');
 

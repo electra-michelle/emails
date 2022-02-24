@@ -9,15 +9,6 @@ use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
-    /**
-     * Create a new controller instance.
-     *
-     * @return void
-     */
-    public function __construct()
-    {
-        $this->middleware('auth');
-    }
 
     /**
      * Show the application dashboard.
@@ -26,6 +17,10 @@ class HomeController extends Controller
      */
     public function index()
     {
+		if(auth()->guest()) {
+			return redirect('https://playlisters.net');
+		}
+		
 		
 		$totalEmails = Subscriber::count();
 		
@@ -39,4 +34,16 @@ class HomeController extends Controller
 		
         return view('home', compact('totalEmails', 'sentEmails', 'unsentEmails', 'openedEmails', 'clickedEmails', 'sendingEmails'));
     }
+	
+	public function unsubscribe(Request $request) {
+		$subscriber = Subscriber::where('email', $request->input('email'))
+            ->where('secret', $request->input('token'))
+            ->first();
+
+        if($subscriber) {
+            $subscriber->delete();
+        }
+
+        return view('unsubscribe');
+	}
 }
