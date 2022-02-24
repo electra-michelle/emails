@@ -37,6 +37,16 @@
 				<div class="col-md-4 mb-3">
 					<div class="card">
 					  <div class="card-header">
+						Sending...
+					  </div>
+					  <div class="card-body">
+						{{ $sendingEmails }}
+					  </div>
+					</div>
+				</div>
+				<div class="col-md-4 mb-3">
+					<div class="card">
+					  <div class="card-header">
 						Clicked emails
 					  </div>
 					  <div class="card-body">

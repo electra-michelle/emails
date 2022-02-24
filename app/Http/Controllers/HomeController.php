@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Subscriber;
 use App\Models\SentEmail;
+use Illuminate\Support\Facades\DB;
 
 class HomeController extends Controller
 {
@@ -32,8 +33,10 @@ class HomeController extends Controller
 		$openedEmails = SentEmail::where('opens', '>', 0)->count();
 		$clickedEmails = SentEmail::where('clicks', '>', 0)->count();
 		
+		$sendingEmails = DB::table('jobs')->where('queue', 'mail')->count();
+		
 		$unsentEmails = Subscriber::where('sent', false)->count();
 		
-        return view('home', compact('totalEmails', 'sentEmails', 'unsentEmails', 'openedEmails', 'clickedEmails'));
+        return view('home', compact('totalEmails', 'sentEmails', 'unsentEmails', 'openedEmails', 'clickedEmails', 'sendingEmails'));
     }
 }
