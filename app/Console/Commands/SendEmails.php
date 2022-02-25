@@ -31,16 +31,16 @@ class SendEmails extends Command
     public function handle()
     {
         $nextEmails = Subscriber::where('sent', false)->take(5)->get();
-		$time = now();
-		foreach($nextEmails as $nextEmail) {
-			$time = $time
-			->addSeconds(rand(7, 12));
-			
-			Mail::to($nextEmail->email)
-				->later($time, new SubscriberMail($nextMail));
-				
-			$nextEmail->sent = true;
-			$nextEmail->save();
-		}
+        $time = now();
+        foreach ($nextEmails as $nextEmail) {
+            $time = $time
+                ->addSeconds(rand(7, 12));
+
+            Mail::to($nextEmail->email)
+                ->later($time, new SubscriberMail($nextMail));
+
+            $nextEmail->sent = true;
+            $nextEmail->save();
+        }
     }
 }

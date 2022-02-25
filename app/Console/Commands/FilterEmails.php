@@ -38,24 +38,24 @@ class FilterEmails extends Command
      */
     public function handle()
     {
-		$subscribers = \App\Models\Subscriber::get();
-		$domains = [];
-		foreach($subscribers as $subscriber) {
-			$email = $subscriber->email;
-			$x = explode('@', $email);
-			$domain = end($x);
+        $subscribers = \App\Models\Subscriber::get();
+        $domains = [];
+        foreach ($subscribers as $subscriber) {
+            $email = $subscriber->email;
+            $x = explode('@', $email);
+            $domain = end($x);
 
-			if(!in_array($domain, $domains)) {
-				$domains[] = $domain;
-			}
-		}
-		
-		//$blacklists = [];
-		foreach($domains as $domain) {
-			if(!checkdnsrr($domain, 'MX')) {
-				\App\Models\Subscriber::where('email', 'LIKE', '%@' . $domain)->delete();
-				$this->info($domain);
-			}
-		}
+            if (!in_array($domain, $domains)) {
+                $domains[] = $domain;
+            }
+        }
+
+        //$blacklists = [];
+        foreach ($domains as $domain) {
+            if (!checkdnsrr($domain, 'MX')) {
+                \App\Models\Subscriber::where('email', 'LIKE', '%@' . $domain)->delete();
+                $this->info($domain);
+            }
+        }
     }
 }

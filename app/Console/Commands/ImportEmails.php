@@ -32,16 +32,16 @@ class ImportEmails extends Command
     {
         parent::__construct();
     }
-		
-	public function readCSV($csvFile, $array)
-	{
-		$file_handle = fopen($csvFile, 'r');
-		while (!feof($file_handle)) {
-			$line_of_text[] = fgetcsv($file_handle, 0, $array['delimiter']);
-		}
-		fclose($file_handle);
-		return $line_of_text;
-	}
+
+    public function readCSV($csvFile, $array)
+    {
+        $file_handle = fopen($csvFile, 'r');
+        while (!feof($file_handle)) {
+            $line_of_text[] = fgetcsv($file_handle, 0, $array['delimiter']);
+        }
+        fclose($file_handle);
+        return $line_of_text;
+    }
 
     /**
      * Execute the console command.
@@ -50,24 +50,24 @@ class ImportEmails extends Command
      */
     public function handle()
     {
-		$csvFileName = "males.csv";
-		$csvFile = storage_path($csvFileName);
-		$data = $this->readCSV($csvFile,array('delimiter' => ','));
-		
-		foreach($data as $d){
-			foreach($d as $email) {
-						
-				$validator = Validator::make(['email' => $email], [
-					'email' => ['email', 'indisposable']
-				]);
+        $csvFileName = "males.csv";
+        $csvFile = storage_path($csvFileName);
+        $data = $this->readCSV($csvFile, array('delimiter' => ','));
 
-				if ($validator->passes()) {
-					$subscriber = Subscriber::withTrashed()->firstOrCreate(['email' => $email], 
-						['secret' => Str::random()]);
-				}
-				
-			}
-			
-		}
+        foreach ($data as $d) {
+            foreach ($d as $email) {
+
+                $validator = Validator::make(['email' => $email], [
+                    'email' => ['email', 'indisposable']
+                ]);
+
+                if ($validator->passes()) {
+                    $subscriber = Subscriber::withTrashed()->firstOrCreate(['email' => $email],
+                        ['secret' => Str::random()]);
+                }
+
+            }
+
+        }
     }
 }

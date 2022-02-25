@@ -30,11 +30,11 @@ class SubscriberMail extends Mailable
     public function build()
     {
         return $this
-			->withSwiftMessage(function ($message) {
-				$message->getHeaders()->addTextHeader(
-					'List-Unsubscribe', route('unsubscribe', ['email' => $this->subscriber->email, 'secret' => $this->subscriber->secret])
-				);
-			})
-		->view('email');
+            ->withSwiftMessage(function ($message) {
+                $message->getHeaders()->addTextHeader(
+                    'List-Unsubscribe', route('unsubscribe', ['email' => $this->subscriber->email, 'secret' => $this->subscriber->secret])
+                );
+            })
+            ->view('email');
     }
 }
