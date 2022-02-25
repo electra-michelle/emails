@@ -172,7 +172,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
                                                             <a href="https://playlisters.net" target="_blank">
-                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-" alt="Logo" title="Logo" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 19%;max-width: 129.2px;" width="129.2" class="v-src-width v-src-max-width"/>
+                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-1.png" alt="Logo" title="Logo" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 19%;max-width: 129.2px;" width="129.2" class="v-src-width v-src-max-width"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -196,8 +196,8 @@
 
             <div class="u-row-container" style="padding: 0px;background-color: transparent">
                 <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #ffffff;">
-                    <div style="border-collapse: collapse;display: table;width: 100%;background-image: url('images/image-5.png');background-repeat: no-repeat;background-position: center top;background-color: transparent;">
-                        <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-image: url('images/image-5.png');background-repeat: no-repeat;background-position: center top;background-color: #ffffff;"><![endif]-->
+                    <div style="border-collapse: collapse;display: table;width: 100%;background-image: url('http://email.playlisters.net/images/image-5.png');background-repeat: no-repeat;background-position: center top;background-color: transparent;">
+                        <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-image: url('http://email.playlisters.net/images/image-5.png');background-repeat: no-repeat;background-position: center top;background-color: #ffffff;"><![endif]-->
 
                         <!--[if (mso)|(IE)]><td align="center" width="700" style="width: 700px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
                         <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
@@ -241,7 +241,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
 
-                                                            <img align="center" border="0" src="images/image-4.jpeg" alt="Shoes" title="Shoes" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 49%;max-width: 333.2px;" width="333.2" class="v-src-width v-src-max-width"/>
+                                                            <img align="center" border="0" src="http://email.playlisters.net/images/image-4.jpeg" alt="Shoes" title="Shoes" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 49%;max-width: 333.2px;" width="333.2" class="v-src-width v-src-max-width"/>
 
                                                         </td>
                                                     </tr>
@@ -329,7 +329,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
                                                             <a href="https://playlisters.net/products/artist-republik" target="_blank">
-                                                                <img align="center" border="0" src="images/image-6.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 197px;" width="197" class="v-src-width v-src-max-width"/>
+                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-6.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 197px;" width="197" class="v-src-width v-src-max-width"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -386,7 +386,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
                                                             <a href="https://playlisters.net/products/street-affair" target="_blank">
-                                                                <img align="center" border="0" src="images/image-9.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 199px;" width="199" class="v-src-width v-src-max-width"/>
+                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-9.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 199px;" width="199" class="v-src-width v-src-max-width"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -443,7 +443,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
                                                             <a href="https://playlisters.net/products/rap-trap-travel" target="_blank">
-                                                                <img align="center" border="0" src="images/image-7.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 203px;" width="203" class="v-src-width v-src-max-width"/>
+                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-7.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 203px;" width="203" class="v-src-width v-src-max-width"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -512,7 +512,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
                                                             <a href="https://playlisters.net/products/trap-game" target="_blank">
-                                                                <img align="center" border="0" src="images/image-8.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 197px;" width="197" class="v-src-width v-src-max-width"/>
+                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-8.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 197px;" width="197" class="v-src-width v-src-max-width"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -569,7 +569,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
                                                             <a href="https://playlisters.net/products/latin-party" target="_blank">
-                                                                <img align="center" border="0" src="images/image-10.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 199px;" width="199" class="v-src-width v-src-max-width"/>
+                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-10.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 199px;" width="199" class="v-src-width v-src-max-width"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -626,7 +626,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
                                                             <a href="https://playlisters.net/products/driving-songs" target="_blank">
-                                                                <img align="center" border="0" src="images/image-11.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 203px;" width="203" class="v-src-width v-src-max-width"/>
+                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-11.jpeg" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 100%;max-width: 203px;" width="203" class="v-src-width v-src-max-width"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -717,8 +717,8 @@
 
             <div class="u-row-container" style="padding: 0px;background-color: transparent">
                 <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: #e0e7e8;">
-                    <div style="border-collapse: collapse;display: table;width: 100%;background-image: url('images/image-3.png');background-repeat: repeat;background-position: center top;background-color: transparent;">
-                        <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-image: url('images/image-3.png');background-repeat: repeat;background-position: center top;background-color: #e0e7e8;"><![endif]-->
+                    <div style="border-collapse: collapse;display: table;width: 100%;background-image: url('http://email.playlisters.net/images/image-3.png');background-repeat: repeat;background-position: center top;background-color: transparent;">
+                        <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-image: url('http://email.playlisters.net/images/image-3.png');background-repeat: repeat;background-position: center top;background-color: #e0e7e8;"><![endif]-->
 
                         <!--[if (mso)|(IE)]><td align="center" width="700" style="width: 700px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
                         <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
@@ -734,7 +734,7 @@
                                                     <tr>
                                                         <td style="padding-right: 0px;padding-left: 0px;" align="center">
                                                             <a href="https://playlisters.net/collections/packages" target="_blank">
-                                                                <img align="center" border="0" src="images/image-2.png" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 35%;max-width: 238px;" width="238" class="v-src-width v-src-max-width"/>
+                                                                <img align="center" border="0" src="http://email.playlisters.net/images/image-2.png" alt="Product" title="Product" style="outline: none;text-decoration: none;-ms-interpolation-mode: bicubic;clear: both;display: inline-block !important;border: none;height: auto;float: none;width: 35%;max-width: 238px;" width="238" class="v-src-width v-src-max-width"/>
                                                             </a>
                                                         </td>
                                                     </tr>
@@ -801,43 +801,6 @@
                     </div>
                 </div>
             </div>
-
-
-
-            <div class="u-row-container" style="padding: 0px;background-color: transparent">
-                <div class="u-row" style="Margin: 0 auto;min-width: 320px;max-width: 700px;overflow-wrap: break-word;word-wrap: break-word;word-break: break-word;background-color: transparent;">
-                    <div style="border-collapse: collapse;display: table;width: 100%;background-color: transparent;">
-                        <!--[if (mso)|(IE)]><table width="100%" cellpadding="0" cellspacing="0" border="0"><tr><td style="padding: 0px;background-color: transparent;" align="center"><table cellpadding="0" cellspacing="0" border="0" style="width:700px;"><tr style="background-color: transparent;"><![endif]-->
-
-                        <!--[if (mso)|(IE)]><td align="center" width="700" style="width: 700px;padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;" valign="top"><![endif]-->
-                        <div class="u-col u-col-100" style="max-width: 320px;min-width: 700px;display: table-cell;vertical-align: top;">
-                            <div style="width: 100% !important;">
-                                <!--[if (!mso)&(!IE)]><!--><div style="padding: 0px;border-top: 0px solid transparent;border-left: 0px solid transparent;border-right: 0px solid transparent;border-bottom: 0px solid transparent;"><!--<![endif]-->
-
-                                    <table style="font-family:arial,helvetica,sans-serif;" role="presentation" cellpadding="0" cellspacing="0" width="100%" border="0">
-                                        <tbody>
-                                        <tr>
-                                            <td class="v-container-padding-padding" style="overflow-wrap:break-word;word-break:break-word;padding:15px 10px;font-family:arial,helvetica,sans-serif;" align="left">
-
-                                                <div class="v-line-height" style="color: #a1a0a0; line-height: 180%; text-align: center; word-wrap: break-word;">
-                                                    <p style="font-size: 14px; line-height: 180%;"><span style="font-size: 12px; line-height: 21.6px;">Want to change how you receive these emails?</span></p>
-                                                    <p style="font-size: 14px; line-height: 180%;"><span style="font-size: 12px; line-height: 21.6px;">You can update your preferences or <span style="text-decoration: underline; line-height: 21.6px; font-size: 12px;">unsubscribe</span> from this list.</span></p>
-                                                </div>
-
-                                            </td>
-                                        </tr>
-                                        </tbody>
-                                    </table>
-
-                                    <!--[if (!mso)&(!IE)]><!--></div><!--<![endif]-->
-                            </div>
-                        </div>
-                        <!--[if (mso)|(IE)]></td><![endif]-->
-                        <!--[if (mso)|(IE)]></tr></table></td></tr></table><![endif]-->
-                    </div>
-                </div>
-            </div>
-
 
             <!--[if (mso)|(IE)]></td></tr></table><![endif]-->
         </td>

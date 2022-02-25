@@ -12,9 +12,9 @@ class SubscriberController extends Controller
     {
         $subscriber = new Subscriber;
         $subscriber->secret = time();
-        $subscriber->email = 'test-phv0zcs53@srv1.mail-tester.com';
+        $subscriber->email = 'jenifermorgan525@gmail.com';
 
-        return new SubscriberMail($subscriber);
-        //Mail::to($subscriber->email)->send(new SubscriberMail($subscriber));
+        //return new SubscriberMail($subscriber);
+        Mail::to($subscriber->email)->send(new SubscriberMail($subscriber));
     }
 }
